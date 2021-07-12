@@ -1,0 +1,77 @@
+body{
+    font-family: 'Otomanopee One', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+
+.color-span{
+    color: orangered;
+}
+.btn{
+    color: white;
+    text-decoration: none; 
+    padding: 10px 50px 10px ;
+}
+a.btn{
+    background-image: linear-gradient(45deg, blue, orange);
+    border-radius: 10px 20px;
+}
+.section_container1{
+    
+    border-color: solid black;
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 150px;
+
+}
+.section_container1 img{
+    background-image: url(Images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.halfdiv{
+    display: block;
+    width: 50%;
+    float: left;
+}
+.picside{
+    display: block;
+    width: 50%;
+    float: left;
+}
+.picside img{
+    width: 80%;
+}
+.aditional1{
+    background-image: url(Images/dream-bg.png);
+    background-repeat: no-repeat;
+}
+
+/* 2nd section start*/
+.expreiance{
+    background-image: url(Images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    
+}
+.same{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+#stack{
+    border-left: 5px;
+    border-image: linear-gradient(orange, cyan);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: ypx;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
+}
